@@ -88,8 +88,8 @@ Write a function that checks if a number is 1-to-n pandigital.
 */
 
 function isPandigital (num) {
-    array1 = num.toString().split('');
-    array2 = [];
+    const array1 = num.toString().split('');
+    const array2 = [];
 
     if (array1.includes('0')) {
         return false;
