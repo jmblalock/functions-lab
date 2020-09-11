@@ -91,7 +91,7 @@ function isPandigital (num) {
     array1 = num.toString().split('');
     array2 = [];
 
-    if (num === 0) {
+    if (array1.includes('0')) {
         return false;
     }
 
