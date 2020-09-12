@@ -105,9 +105,8 @@ function isPandigital (num) {
             return false;
         }
     }
-    return array2;
 }
-console.log(isPandigital(15234));
+console.log(isPandigital(123456789));
 console.log(isPandigital(333));
 console.log(isPandigital(0));
 console.log(isPandigital(987654321));
